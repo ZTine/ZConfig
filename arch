@@ -1,0 +1,9 @@
+curl -LO matmoul.github.io/archfi
+curl -LO archfi.sf.net/archfi
+
+pacman -Sy git
+git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+cd ~/Hyprdots/Scripts
+./install.sh
+
+https://github.com/end-4/dots-hyprland.git
